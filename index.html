@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <p>JS Arithmetic program</p>
+    <div class="input">
+        <div class="conationer">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Enter Number 1:</p>  <input type="number" id="number1" > 
+                </div>
+                <div class="col-lg-6">
+                    <p>Enter Number 2: </p> <input type="number" id="number2" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="calculation">
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-lg-3">
+                    <button type="button" onclick="Addition()" >Addition</button>
+                </div>
+                <div class="col-lg-3">
+                    <button type="button" onclick="Subtraction()" >Subtraction</button>
+                </div>
+                <div class="col-lg-3">
+                    <button type="button" onclick="Multiplication()" >Multiplication</button>
+                </div>
+                <div class="col-lg-3">
+                    <button type="button" onclick="Division()" >Division</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="result">
+        <p>Result is: <span id="result"></span></p>
+    </div>
+    <!--
+    <div class="time">
+        <p>Time is: <span id="time"></span></p>
+    </div>
+    //-->
+    <script src="./js/app.js"></script>
+</body>
+</html>
